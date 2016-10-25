@@ -1,0 +1,5 @@
+Django == 1.*
+djangorestframework == 3.*
+mongoengine
+blinker
+django-rest-framework-mongoengine == 1.*
