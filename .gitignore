@@ -93,3 +93,4 @@ ENV/
 .idea/vcs.xml
 .idea/*
 db.*
+db.sqlite3
