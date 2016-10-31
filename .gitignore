@@ -90,4 +90,6 @@ ENV/
 .ropeproject
 
 .idea/
+.idea/vcs.xml
+.idea/*
 db.*
