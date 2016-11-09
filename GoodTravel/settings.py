@@ -21,10 +21,13 @@ INSTALLED_APPS = (
     'rest_framework',
     # 'rest_framework_mongoengine',
     # 'django_mongoengine',
+
+    'whitenoise.runserver_nostatic',
 )
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -60,13 +63,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'GoodTravel.wsgi.application'
 
-DATABASES = {
-    'default': {
-        'ENGINE': '',
-        'NAME': '',
-    }
-}
-
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'Europe/Moscow'
@@ -86,6 +82,20 @@ REST_FRAMEWORK = {
 
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
+
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/static/'
+
+# Extra places for collectstatic to find static files.
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
+
+# Simplified static file serving.
+# https://warehouse.python.org/project/whitenoise/
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 
 try:
     from local_settings import *
