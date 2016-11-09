@@ -94,3 +94,4 @@ ENV/
 .idea/*
 db.*
 db.sqlite3
+commands.txt
