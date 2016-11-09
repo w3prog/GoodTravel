@@ -52,7 +52,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.security.SecurityMiddleware',
 )
 
-ROOT_URLCONF = '{{ project_name }}.urls'
+ROOT_URLCONF = 'GoodTravel.urls'
 
 TEMPLATES = [
     {
@@ -81,15 +81,7 @@ DATABASES = {
         'NAME': '',
     }
 }
-# MONGODB_DATABASES = {
-#     "default": {
-#         "name": 'my_database',
-#         # "password": '',
-#         # "username": '',
-#         "host": '27017',
-#         "tz_aware": True,  # if you using timezones in django (USE_TZ = True)
-#     },
-# }
+
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
