@@ -1,1 +1,2 @@
-web: gunicorn GoodTravel.wsgi
+web: gunicorn GoodTravel.wsgi --log-file -
+worker: python worker.py
