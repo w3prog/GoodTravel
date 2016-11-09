@@ -4,7 +4,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = '1$p7m-4g5phw@*0z&1igz&-l@x!55=a3xsjt2bp_q+$*g4ukpa'
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'gtwprog.herokuapp.com',

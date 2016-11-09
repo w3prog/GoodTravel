@@ -6,5 +6,4 @@ heroku run python3 manage.py makemigrations --app gtwprog
 
 heroku ps:scale web=1 --app gtwprog
 
-
 heroku logs --app gtwprog
