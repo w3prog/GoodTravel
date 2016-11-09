@@ -93,3 +93,4 @@ ENV/
 db.*
 db.sqlite3
 commands.txt
+/commands.txt
