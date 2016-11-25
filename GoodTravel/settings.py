@@ -8,6 +8,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     'gtwprog.herokuapp.com',
+    '127.0.0.1'
 ]
 
 INSTALLED_APPS = (
