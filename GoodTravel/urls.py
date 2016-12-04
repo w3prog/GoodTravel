@@ -22,9 +22,11 @@ from rest_framework import routers
 router = routers.DefaultRouter()
 router.register(r'users', views.UserViewSet)
 router.register(r'places', views.PlaceViewSet)
-router.register(r'days', views.DateViewSet)
+router.register(r'features', views.FeatureViewSet)
 router.register(r'plans', views.PlanViewSet)
 router.register(r'address', views.AddressViewSet)
+router.register(r'plan_place', views.PlanPlaceViewSet)
+router.register(r'services', views.ServiceViewSet)
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),

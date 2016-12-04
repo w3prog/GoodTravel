@@ -1,10 +1,11 @@
 from rest_framework import serializers
 
 from goodTravelRestApp.models import Address
-from goodTravelRestApp.models import Date
 from goodTravelRestApp.models import Place
 from goodTravelRestApp.models import Plan
 from goodTravelRestApp.models import User1
+from goodTravelRestApp.models import Service, PlanPlace
+from goodTravelRestApp.models import Feature
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
@@ -19,19 +20,31 @@ class AddressSerializer(serializers.HyperlinkedModelSerializer):
         fields = ('country', 'region', 'locality', 'address', 'coordinates')
 
 
-class DateSerializer(serializers.HyperlinkedModelSerializer):
+class FeatureSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
-        model = Date
-        fields = ('date', 'route', 'plan')
+        model = Feature
+        fields = ('name','plan')
 
 
 class PlaceSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Place
-        fields = ('name', 'type', 'description', 'address', 'image', 'day')
+        fields = ('name', 'type', 'description', 'address', 'image')
 
 
 class PlanSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Plan
-        fields = ('name', 'dates', 'creator', 'budget', 'city', 'users', 'features')
+        fields = ('name', 'creator', 'budget', 'city')
+
+
+class PlanPlaceSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = PlanPlace
+        fields = ('date', 'start_time', 'plan', 'service')
+
+
+class ServiceSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Service
+        fields = ('name', 'price', 'start_time', 'end_time', 'image', 'place')

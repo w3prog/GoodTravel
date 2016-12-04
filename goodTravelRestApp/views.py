@@ -1,15 +1,13 @@
 from rest_framework import viewsets
 
 from goodTravelRestApp.models import Address
-from goodTravelRestApp.models import Date
 from goodTravelRestApp.models import Place
 from goodTravelRestApp.models import Plan
-from goodTravelRestApp.models import User1
+from goodTravelRestApp.models import User1,Service,PlanPlace,Feature
 from goodTravelRestApp.serializers import AddressSerializer
-from goodTravelRestApp.serializers import DateSerializer
 from goodTravelRestApp.serializers import PlaceSerializer
 from goodTravelRestApp.serializers import PlanSerializer
-from goodTravelRestApp.serializers import UserSerializer
+from goodTravelRestApp.serializers import UserSerializer,ServiceSerializer,PlanPlaceSerializer,FeatureSerializer
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -36,12 +34,12 @@ class PlanViewSet(viewsets.ModelViewSet):
     serializer_class = PlanSerializer
 
 
-class DateViewSet(viewsets.ModelViewSet):
+class FeatureViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows groups to be viewed or edited.
     """
-    queryset = Date.objects.all()
-    serializer_class = DateSerializer
+    queryset = Feature.objects.all()
+    serializer_class = FeatureSerializer
 
 
 class PlaceViewSet(viewsets.ModelViewSet):
@@ -50,3 +48,19 @@ class PlaceViewSet(viewsets.ModelViewSet):
     """
     queryset = Place.objects.all()
     serializer_class = PlaceSerializer
+
+
+class PlanPlaceViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows groups to be viewed or edited.
+    """
+    queryset = PlanPlace.objects.all()
+    serializer_class = PlanPlaceSerializer
+
+
+class ServiceViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows groups to be viewed or edited.
+    """
+    queryset = Service.objects.all()
+    serializer_class = ServiceSerializer

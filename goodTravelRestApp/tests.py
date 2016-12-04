@@ -6,15 +6,13 @@ from rest_framework.request import Request
 from rest_framework.test import APIRequestFactory
 
 from goodTravelRestApp.models import Address
-from goodTravelRestApp.models import Date
-from goodTravelRestApp.models import Place
-from goodTravelRestApp.models import Plan
-from goodTravelRestApp.models import User1
-from goodTravelRestApp.serializers import AddressSerializer
-from goodTravelRestApp.serializers import PlaceSerializer
-from goodTravelRestApp.serializers import PlanSerializer
+from goodTravelRestApp.models import Place, PlanPlace
+from goodTravelRestApp.models import Plan, Service
+from goodTravelRestApp.models import User1, Feature
+from goodTravelRestApp.serializers import AddressSerializer, FeatureSerializer
+from goodTravelRestApp.serializers import PlaceSerializer, ServiceSerializer
+from goodTravelRestApp.serializers import PlanSerializer, PlanPlaceSerializer
 from goodTravelRestApp.serializers import UserSerializer
-from goodTravelRestApp.serializers import DateSerializer
 
 
 # Create your tests here.
@@ -33,12 +31,14 @@ class PersonTestCase(TestCase):
         Address.objects.create(country="ddd", region="fgff", locality="gh", address="fg", coordinates="Fggg")
         User1.objects.create(login="1234", password="12345", list_devices="2345", language="gsg", budget="ghjhgfd",
                              first_installation="2016-12-22")
-        Plan.objects.create(name="ffff", dates="29-23", creator=User1.objects.get(id='1'), budget="ddddd", city="dfg", users="dfff",
-                            features="ddddd")
-        Date.objects.create(date="2016-12-23", route="ggggggg", plan=Plan.objects.get(id='1'))
+        Plan.objects.create(name="ffff", creator=User1.objects.get(id='1'), budget="ddddd", city="dfg")
+        Feature.objects.create(name="fff", plan=Plan.objects.get(id='1'))
         Place.objects.create(name="sgg", type="sgsgsg", description="fgjdl", address=Address.objects.get(id='1'),
-                              image="fffff", day=Date.objects.get(id='1'))
-
+                             image="fffff")
+        Service.objects.create(name="sgg", price="100", start_time="12:30", end_time="13:30",
+                               image="fffff", place=Place.objects.get(id='1'))
+        PlanPlace.objects.create(date="2016-12-22", start_time="12:30", plan=Plan.objects.get(id='1'),
+                                 service=Service.objects.get(id='1'))
 
     def test_address(self):
         client = Client()
@@ -79,7 +79,7 @@ class PersonTestCase(TestCase):
         content = JSONRenderer().render(s.data)
         self.assertEqual(response.content, content)
 
-    def test_date(self):
+    def test_feature(self):
         factory = APIRequestFactory()
         request = factory.get('/')
         serializer_context = {
@@ -87,12 +87,12 @@ class PersonTestCase(TestCase):
         }
         client = Client()
         client.login(username=self.username, password=self.password)
-        response = client.get('/days/')
+        response = client.get('/features/')
         self.assertEquals(response.status_code, 200)
-        response = client.get('/days/1/')
+        response = client.get('/features/1/')
         self.assertEquals(response.status_code, 200)
-        p = Date.objects.get(id='1')
-        s = DateSerializer(instance=p, context=serializer_context)
+        p = Feature.objects.get(id='1')
+        s = FeatureSerializer(instance=p, context=serializer_context)
         content = JSONRenderer().render(s.data)
         self.assertEqual(response.content, content)
 
@@ -110,5 +110,39 @@ class PersonTestCase(TestCase):
         self.assertEquals(response.status_code, 200)
         p = Plan.objects.get(id='1')
         s = PlanSerializer(instance=p, context=serializer_context)
+        content = JSONRenderer().render(s.data)
+        self.assertEqual(response.content, content)
+
+    def test_service(self):
+        factory = APIRequestFactory()
+        request = factory.get('/')
+        serializer_context = {
+            'request': Request(request),
+        }
+        client = Client()
+        client.login(username=self.username, password=self.password)
+        response = client.get('/services/')
+        self.assertEquals(response.status_code, 200)
+        response = client.get('/services/1/')
+        self.assertEquals(response.status_code, 200)
+        p = Service.objects.get(id='1')
+        s = ServiceSerializer(instance=p, context=serializer_context)
+        content = JSONRenderer().render(s.data)
+        self.assertEqual(response.content, content)
+
+    def test_planPlace(self):
+        factory = APIRequestFactory()
+        request = factory.get('/')
+        serializer_context = {
+            'request': Request(request),
+        }
+        client = Client()
+        client.login(username=self.username, password=self.password)
+        response = client.get('/plan_place/')
+        self.assertEquals(response.status_code, 200)
+        response = client.get('/plan_place/1/')
+        self.assertEquals(response.status_code, 200)
+        p = PlanPlace.objects.get(id='1')
+        s = PlanPlaceSerializer(instance=p, context=serializer_context)
         content = JSONRenderer().render(s.data)
         self.assertEqual(response.content, content)

@@ -15,7 +15,7 @@ class Address(models.Model):
     country = models.CharField(max_length=200, verbose_name="Страна")
     region = models.CharField(max_length=200, verbose_name="Регион")
     locality = models.CharField(max_length=200, verbose_name="Населенный пункт")
-    address = models.CharField(max_length=300, verbose_name="Адрес в населнном пункте")
+    address = models.CharField(max_length=300, verbose_name="Адрес в населенном пункте")
     coordinates = models.TextField(verbose_name="Координаты")
 
 
@@ -25,18 +25,14 @@ class Plan(models.Model):
         (2, 'Средний'),
         (3, 'Люкс'),
     )
-    name = models.CharField(max_length=200, verbose_name="Название", unique=True)
-    dates = models.CharField(max_length=200, verbose_name="Даты")
+    name = models.CharField(max_length=200, verbose_name="Название")
     creator = models.ForeignKey(User1)
     budget = models.CharField(choices=CATEGORIES, verbose_name="Бюджет", max_length=500, )
     city = models.CharField(max_length=200, verbose_name="Город")
-    users = models.TextField(verbose_name="Пользователи в плане")
-    features = models.TextField(verbose_name="Особенности")
 
 
-class Date(models.Model):
-    date = models.DateField(verbose_name="Дата")
-    route = models.TextField(verbose_name="Маршрут")
+class Feature(models.Model):
+    name = models.CharField(max_length=200, verbose_name="Название")
     plan = models.ForeignKey(Plan)
 
 
@@ -46,7 +42,22 @@ class Place(models.Model):
     description = models.TextField(verbose_name="Описание")
     address = models.OneToOneField(Address)
     image = models.CharField(max_length=500, verbose_name="Основное изображение")
-    day = models.ForeignKey(Date)
+
+
+class Service(models.Model):
+    name = models.CharField(max_length=200, unique=True, verbose_name="Название")
+    price = models.CharField(max_length=200, verbose_name="Цена")
+    start_time = models.TimeField(verbose_name="Время начала")
+    end_time = models.TimeField(verbose_name="Время конца")
+    image = models.CharField(max_length=500, verbose_name="Ссылка на изображение")
+    place = models.ForeignKey(Place)
+
+
+class PlanPlace(models.Model):
+    date = models.DateField(verbose_name="Дата")
+    start_time = models.TimeField(verbose_name="Время начала")
+    plan = models.ForeignKey(Plan)
+    service = models.ForeignKey(Service)
 
 
 
