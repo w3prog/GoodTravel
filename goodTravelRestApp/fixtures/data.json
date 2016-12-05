@@ -1,0 +1,1990 @@
+[
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 1,
+    "fields": {
+      "id": 1,
+      "name": "Государственный Эрмитаж",
+      "description": "Государственный Эрмитаж, зародившийся в 18 столетии как частное собрание Екатерины II, стал сегодня одним из самых богатых музеев мира.",
+      "type": "Художественный музей",
+      "image": "https://stonecarvers.ru/wp-content/uploads/2015/10/f757da9811e3330e05cb90c8466c9e38.png",
+      "address_id": 1
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 2,
+    "fields": {
+      "id": 2,
+      "name": "Государственный Русский музей",
+      "description": "Русский музей, основанный в 1895 году по указу Николая II, стал первым в России государственным музеем отечественного изобразительного искусства.",
+      "type": "Художественный музей",
+      "image": "http://www.zapoved.net/catalog/img_originals/8508.jpg",
+      "address_id": 2
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 3,
+    "fields": {
+      "id": 3,
+      "name": "Кунсткамера",
+      "description": "Кунсткамера — кабинет редкостей, в настоящее время — Музей антропологии и этнографии имени Петра Великого Российской академии наук — первый музей России, учреждённый императором Петром Первым и находящийся в Санкт-Петербурге",
+      "type": "Художественный музей",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kunstkamera_SPB.jpg/300px-Kunstkamera_SPB.jpg",
+      "address_id": 3
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 4,
+    "fields": {
+      "id": 4,
+      "name": "Музей-институт семьи Рерихов",
+      "description": "Санкт-Петербургский Музей-институт Рериха расположен в особняке академика и художника М.П. Боткина. Заведение было учреждено в 2001 году.",
+      "type": "Художественный музей",
+      "image": "http://excava.ru/content_all/uploads/2016/03/roerich-museum.jpg",
+      "address_id": 4
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 5,
+    "fields": {
+      "id": 5,
+      "name": "Музей современного искусства Эрарта",
+      "description": "Эрарта — крупнейший частный музей современного искусства в России",
+      "type": "Художественный музей",
+      "image": "http://strana.ru/media/images/uploaded/gallery_promo22998217.jpg",
+      "address_id": 5
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 6,
+    "fields": {
+      "id": 6,
+      "name": "Музей Российской Академии художеств",
+      "description": "Музей при Академии художеств возник практически одновременно с ее основанием в середине XVIII века. Основу коллекции составляют эскизы ее воспитанников.",
+      "type": "Художественный музей",
+      "image": "http://www.rah.ru/museums/Zirkul-2etazh-2.jpg",
+      "address_id": 6
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 7,
+    "fields": {
+      "id": 7,
+      "name": "Музей-квартира И.И. Бродского",
+      "description": "Филиал Научно-исследовательского музея Российской Академии художеств",
+      "type": "Художественный музей",
+      "image": "http://www.nimrah.ru/upload/2008-12-09_16-59-12.jpg",
+      "address_id": 7
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 8,
+    "fields": {
+      "id": 8,
+      "name": "Музей восковых фигур",
+      "description": "Здесь обитают персонажи из воска. Фигуры людей, сказочных существ, библейских героев так мастерски выполнены, что их можно принять за живых.",
+      "type": "Художественный музей",
+      "image": "http://www.peterburg.biz/images/stories/muzvosk1_b.jpg",
+      "address_id": 8
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 9,
+    "fields": {
+      "id": 9,
+      "name": "Монумент защитникам Ленинграда",
+      "description": "Этот мемориальный комплекс, построенный на народные средства, возвышается на южном въезде в Санкт-Петербург, посреди площади Победы.",
+      "type": "Военно-исторический музей",
+      "image": "http://strana.ru/media/images/uploaded/gallery_promo23481940.jpg",
+      "address_id": 9
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 10,
+    "fields": {
+      "id": 10,
+      "name": "Музей обороны и блокады Ленинграда",
+      "description": "За минувшее столетие Петербургу довелось повидать и голод, и гражданскую войну, и революции, и сталинский террор. Но самым ужасным испытанием была блокада…",
+      "type": "Военно-исторический музей",
+      "image": "http://strana.ru/media/images/uploaded/gallery_promo23478771.jpg",
+      "address_id": 10
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 11,
+    "fields": {
+      "id": 11,
+      "name": "Музей культуры Ленинграда 1945-1965гг.",
+      "description": "Музей образован на основе частной коллекции Натальи Баландиной – коллекционера, в течение многих лет собирающей предметы быта ленинградцев.",
+      "type": "Военно-исторический музей",
+      "image": "http://www.peterburg.biz/images/space/muzkl1.jpg",
+      "address_id": 11
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 12,
+    "fields": {
+      "id": 12,
+      "name": "Музей «Крейсер «Аврора»",
+      "description": "Крейсер «Аврора». Эти 2 слова были очень знаменательными для тех, кто жил в советскую эпоху. Залп «Авроры» послужил сигналом для штурма Зимнего в 1917 году.",
+      "type": "Военно-исторический музей",
+      "image": "http://www.museum.ru/imgB.asp?710",
+      "address_id": 12
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 13,
+    "fields": {
+      "id": 13,
+      "name": "Петропавловская крепость",
+      "description": "Петропавловская крепость — крепость в Санкт-Петербурге, расположенная на Заячьем острове, историческое ядро города. ",
+      "type": "Военно-исторический музей",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Peter_%26_Paul_fortress_in_SPB_03.jpg/280px-Peter_%26_Paul_fortress_in_SPB_03.jpg",
+      "address_id": 13
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 14,
+    "fields": {
+      "id": 14,
+      "name": "Государственный мемориальный музей А. В. Суворова",
+      "description": "Старейших мемориальный музей Петербурга был основан в 1900 году к 100-летней годовщине со дня смерти великого полководца.",
+      "type": "Военно-исторический музей",
+      "image": "https://www.google.ru/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwix-NG6ucvQAhXlHpoKHeODB5sQjBwIBA&url=http%3A%2F%2Fwww.peterburg.biz%2Fimages%2Fstories%2Fmuzsuvor1_b.jpg&psig=AFQjCNGM1O9kZggG8mcRWQxbXKRa-g07KA&ust=1480422428267391",
+      "address_id": 14
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 15,
+    "fields": {
+      "id": 15,
+      "name": "Особняк Румянцева",
+      "description": "История особняка — от строительства здания в 1730–1740-х годах до конца ХХ века — рассказана на основе исторических документов и архитектурных планов,  фотографий интерьеров начала ХХ века. ",
+      "type": "Исторический музей",
+      "image": "",
+      "address_id": 15
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 16,
+    "fields": {
+      "id": 16,
+      "name": "Музей-квартира А.А. Блока",
+      "description": "Филиал Музея истории Санкт-Петербурга. Музей открыт 28 ноября 1980 года в доме, где Александр Александрович Блок прожил 9 лет — с июля 1912 года до своей смерти в августе 1921 году.",
+      "type": "Исторический музей",
+      "image": "",
+      "address_id": 16
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 17,
+    "fields": {
+      "id": 17,
+      "name": "Музей С.М. Кирова",
+      "description": "Уникальные подлинные предметы (вещевые экспонаты, книги, фотографии), а также обстановка представлены в мемориальной квартире С. М. Кирова",
+      "type": "Исторический музей",
+      "image": "",
+      "address_id": 17
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 18,
+    "fields": {
+      "id": 18,
+      "name": "Музей петербургского авангарда",
+      "description": "Постоянная экспозиция Музея петербургского авангарда (Дома М. В. Матюшина) демонстрирует основные этапы становления авангардной культуры в России и многообразие петербургского авангардного искусства 1910—1930-х годов.",
+      "type": "Исторический музей",
+      "image": "",
+      "address_id": 18
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 19,
+    "fields": {
+      "id": 19,
+      "name": "Музей печати",
+      "description": "История дома № 32 по набережной реки Мойки тесно связана с развитием типографского и издательского дела в России в начале ХХ века.",
+      "type": "Исторический музей",
+      "image": "",
+      "address_id": 19
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 20,
+    "fields": {
+      "id": 20,
+      "name": "Государственный Музей Политической Истории России",
+      "description": "Историко-политический музей послереволюционной России, основанный в 1919 году.",
+      "type": "Исторический музей",
+      "image": "",
+      "address_id": 20
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 21,
+    "fields": {
+      "id": 21,
+      "name": "Российский Этнографический Музей",
+      "description": "Традиционная культура народов России и сопредельных стран.",
+      "type": "Исторический музей",
+      "image": "",
+      "address_id": 21
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 22,
+    "fields": {
+      "id": 22,
+      "name": "Музей «Разночинный Петербург»",
+      "description": "Музей «Разночинный Петербург» отражает историю «непарадного» Петербурга.",
+      "type": "Исторический музей",
+      "image": "",
+      "address_id": 22
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 23,
+    "fields": {
+      "id": 23,
+      "name": "Музей «Гранд Макет Россия»",
+      "description": "Гранд Макет Россия — частный музей в Санкт-Петербурге. Представляет собой макет, выполненный в масштабе 1:87, площадью 800 м², где объединены собирательные образы регионов Российской Федерации",
+      "type": "Исторический музей",
+      "image": "",
+      "address_id": 23
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 24,
+    "fields": {
+      "id": 24,
+      "name": "Музей-усадьба Г.Р.Державина",
+      "description": "Музей-усадьба Г. Р. Державина — особняк Гавриила Романовича Державина в Санкт-Петербурге",
+      "type": "Литературный музей",
+      "image": "",
+      "address_id": 24
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 25,
+    "fields": {
+      "id": 25,
+      "name": "Музей-квартира Н. А. Некрасова",
+      "description": "Мемориальный музей-квартира великого русского поэта Некрасова.",
+      "type": "Литературный музей",
+      "image": "",
+      "address_id": 25
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 26,
+    "fields": {
+      "id": 26,
+      "name": "Музей-квартира Л.Н.Гумилёва",
+      "description": "Музей расположен в квартире, где ученый провел последние 2 года своей жизни и, при этом, единственной отдельной квартире, которая когда-либо у него была.",
+      "type": "Литературный музей",
+      "image": "",
+      "address_id": 26
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 27,
+    "fields": {
+      "id": 27,
+      "name": "Музей Анны Ахматовой в Фонтанном Доме",
+      "description": "Создать этот музей было решено накануне 100-летия со дня рождения поэтессы, в 1988 году. А уже 24 июня 1989 года торжественное открытие состоялось.",
+      "type": "Литературный музей",
+      "image": "",
+      "address_id": 27
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 28,
+    "fields": {
+      "id": 28,
+      "name": "Музей Достоевского",
+      "description": "Идею о создании музея Достоевского выдвинул в 1960-х архитектор-художник Г.В. Пионтек, а открыли его в год 150-летия со дня рождения писателя – в 1971 году",
+      "type": "Литературный музей",
+      "image": "",
+      "address_id": 28
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 29,
+    "fields": {
+      "id": 29,
+      "name": "Литературный музей «ХХ век»",
+      "description": "В 1988 году на Канале Грибоедова, д. 9 (ныне Малая Конюшенная, д. 4/2) был создан филиал Музея Достоевского, посвященный писателю М.М. Зощенко. Через пять лет, в 1993, он получил самостоятельность, а к 2007 года стал называться «XX век». Государственный литературный музей «XX век»».",
+      "type": "Литературный музей",
+      "image": "",
+      "address_id": 29
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 30,
+    "fields": {
+      "id": 30,
+      "name": "Театральный музей",
+      "description": "В одном из красивейших архитектурных ансамблей Санкт-Петербурга, созданном гениальным Карлом Росси специально для Дирекции императорских театров расположен Театральный музей.",
+      "type": "Музыкально-творческий музей",
+      "image": "",
+      "address_id": 30
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 31,
+    "fields": {
+      "id": 31,
+      "name": "Шереметевский дворец - Музей музыки",
+      "description": "Фонтанный дом — одна из самых интересных достопримечательностей Санкт-Петербурга, практически ровесник города. Название «Фонтанный дом» еще с XVIII в. ",
+      "type": "Музыкально-творческий музей",
+      "image": "",
+      "address_id": 31
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 32,
+    "fields": {
+      "id": 32,
+      "name": "Дом-музей Ф. Шаляпина",
+      "description": "Музей Ф. И. Шаляпина был открыт 11 апреля 1975 г. в последней петербургской квартире певца. ",
+      "type": "Музыкально-творческий музей",
+      "image": "",
+      "address_id": 32
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 33,
+    "fields": {
+      "id": 33,
+      "name": "Музей Н. А. Римского-Корсакова",
+      "description": "Мемориальный музей-квартира Н. А. Римского-Корсакова расположен в дворовом флигеле дома 28 по Загородному проспекту, где Римский-Корсаков провел последние 15 лет жизни с 1893 по 1908 г.",
+      "type": "Музыкально-творческий музей",
+      "image": "",
+      "address_id": 33
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 34,
+    "fields": {
+      "id": 34,
+      "name": "Музей актёров Самойловых",
+      "description": "В течение 18 лет (с 1869 по 1887 г.) владельцем дома № 8 на Стремянной улице был знаменитый актер императорского Александринского театра Василий Васильевич Самойлов (1813–1887) — талантливейший представитель актерской династии Самойловых. ",
+      "type": "Музыкально-творческий музей",
+      "image": "",
+      "address_id": 34
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 35,
+    "fields": {
+      "id": 35,
+      "name": "Российский государственный музей Арктики и Антарктики",
+      "description": "Огромная коллекция экспонатов позволила сотрудникам создать уникальную в своем роде экспозицию Музея Арктики и Антарктики.",
+      "type": "Природный музей",
+      "image": "",
+      "address_id": 35
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 36,
+    "fields": {
+      "id": 36,
+      "name": "Музейный комплекс «Вселенная воды»",
+      "description": "В 2003 году в Санкт-Петербурге открылся новый музей. Группа инициативных сотрудников собрала изумительную коллекцию.",
+      "type": "Природный музей",
+      "image": "",
+      "address_id": 36
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 37,
+    "fields": {
+      "id": 37,
+      "name": "Центральный музей почвоведения им. В.В.Докучаева",
+      "description": "Великий натуралист, ученый-почвовед В.В.Докучаев долгое время буквально «обивал» пороги, пока не добился открытия музея в 1904 году.",
+      "type": "Природный музей",
+      "image": "",
+      "address_id": 37
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 38,
+    "fields": {
+      "id": 38,
+      "name": "Горный музей",
+      "description": "Горный музей Санкт-Петербургского Государственного горного университета – один из старейших музеев нашей страны. Он был основан в 1773 г.",
+      "type": "Природный музей",
+      "image": "",
+      "address_id": 38
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 39,
+    "fields": {
+      "id": 39,
+      "name": "Ботанический сад",
+      "description": "Ботанический сад Ботанического института им. В. Л. Комарова РАН — один из старейших ботанических садов России, расположенный на Аптекарском острове в Санкт-Петербурге.",
+      "type": "Парк",
+      "image": "http://xn--80aame3bgcj.xn--p1ai/wp-content/uploads/2015/08/%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D1%81%D0%B0%D0%B4-%D0%9F%D0%B5%D1%82%D1%80%D0%B0-%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B3%D0%BE.jpg",
+      "address_id": 39
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 40,
+    "fields": {
+      "id": 40,
+      "name": "Ленинградский зоопарк",
+      "description": "Ленинградский зоопарк – уникальный музей живой природы, который является домом для более чем 600 видов животных, птиц, рыб и беспозвоночных.",
+      "type": "Природный музей",
+      "image": "",
+      "address_id": 40
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 41,
+    "fields": {
+      "id": 41,
+      "name": "Зоологический музей",
+      "description": "Зоологический музей, который как самостоятельное учреждение был организован в 1832 году, разместился на Университетской набережной.",
+      "type": "Природный музей",
+      "image": "",
+      "address_id": 41
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 42,
+    "fields": {
+      "id": 42,
+      "name": "Музей электрического транспорта",
+      "description": "Музей состоит из 3 частей. Эволюция развития общественного транспорта представлена архивными рисунками, схемами и фотографиями.",
+      "type": "Музей науки и техники",
+      "image": "",
+      "address_id": 42
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 43,
+    "fields": {
+      "id": 43,
+      "name": "Музей Петербургского метрополитена",
+      "description": "Узнать о том, как работает «подземка» , примерять роль и форму дежурного по станции или машиниста, прогуляться по тоннелю вместо поезда...",
+      "type": "Музей науки и техники",
+      "image": "",
+      "address_id": 43
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 44,
+    "fields": {
+      "id": 44,
+      "name": "Музей граммофонов и фонографов",
+      "description": "Идею музея можно охарактеризовать одной фразой из книги: «если собрать все граммофоны, которые выпускались в мире, то это была бы красивейшая коллекция»",
+      "type": "Музей науки и техники",
+      "image": "",
+      "address_id": 44
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 45,
+    "fields": {
+      "id": 45,
+      "name": "Музей связи имени А.С. Попова",
+      "description": "Музей  был открыт в 1872 г. и назван в честь изобретателя радио. В нем показана вся история связи, первое радио, телеграфные аппараты, телефоны и многое другое.",
+      "type": "Музей науки и техники",
+      "image": "",
+      "address_id": 45
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Place",
+    "pk": 46,
+    "fields": {
+      "id": 46,
+      "name": "Музей А. С. Попова при ЛЭТИ",
+      "description": "Мемориальный музей великого русского физика и электротехника включает два основных объекта: мемориальную лабораторию и мемориальную квартиру.",
+      "type": "Музей науки и техники",
+      "image": "",
+      "address_id": 46
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 47,
+    "fields": {
+      "id": 1,
+      "name": "Зимний дворец Петра I",
+      "price": "300",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 1
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 48,
+    "fields": {
+      "id": 2,
+      "name": "Дворец Меншикова",
+      "price": "300",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 1
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 49,
+    "fields": {
+      "id": 3,
+      "name": "Реставрационно-хранительский центр «Старая деревня»",
+      "price": "300",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 1
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 50,
+    "fields": {
+      "id": 4,
+      "name": "Главный штаб",
+      "price": "300",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 1
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 51,
+    "fields": {
+      "id": 5,
+      "name": "Музей Императорского фарфорового завода.",
+      "price": "300",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 1
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 52,
+    "fields": {
+      "id": 6,
+      "name": "Михайловский дворец, Корпус Бенуа",
+      "price": "450",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 2
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 53,
+    "fields": {
+      "id": 7,
+      "name": "Строгановский дворец",
+      "price": "300",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 2
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 54,
+    "fields": {
+      "id": 8,
+      "name": "Михайловский замок",
+      "price": "300",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 2
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 55,
+    "fields": {
+      "id": 9,
+      "name": "Мраморный дворец",
+      "price": "300",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 2
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 56,
+    "fields": {
+      "id": 10,
+      "name": "Домик Петра I",
+      "price": "200",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 2
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 57,
+    "fields": {
+      "id": 11,
+      "name": "Кунсткамера",
+      "price": "250",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 3
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 58,
+    "fields": {
+      "id": 12,
+      "name": "Музей семьи Рерихов",
+      "price": "120",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 4
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 59,
+    "fields": {
+      "id": 13,
+      "name": "Эрарта",
+      "price": "500",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 5
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 60,
+    "fields": {
+      "id": 14,
+      "name": "Научно-исследовательский музей при Российской академии художеств",
+      "price": "500(200)",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 6
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 61,
+    "fields": {
+      "id": 15,
+      "name": "Музей-квартира И.И. Бродского",
+      "price": "300(150)",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 7
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 62,
+    "fields": {
+      "id": 16,
+      "name": "Музей восковых фигур",
+      "price": "350",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 8
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 63,
+    "fields": {
+      "id": 17,
+      "name": "Наземная часть ансамбля",
+      "price": "бесплатно",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 9
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 64,
+    "fields": {
+      "id": 18,
+      "name": "Памятный зал с экспозицией «История обороны и блокады Ленинграда»",
+      "price": "100",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 9
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 65,
+    "fields": {
+      "id": 19,
+      "name": "Музей обороны и блокады Ленинграда",
+      "price": "250",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 10
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 66,
+    "fields": {
+      "id": 20,
+      "name": "Музей культуры Ленинграда 1945-1965гг.",
+      "price": "100",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 11
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 67,
+    "fields": {
+      "id": 21,
+      "name": "Музей «Крейсер «Аврора»",
+      "price": "400",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 12
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 68,
+    "fields": {
+      "id": 22,
+      "name": "Петропавловский собор и Великокняжеская усыпальница",
+      "price": "450",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 13
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 69,
+    "fields": {
+      "id": 23,
+      "name": "Тюрьма Трубецкого бастиона ",
+      "price": "200",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 13
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 70,
+    "fields": {
+      "id": 24,
+      "name": "Музей космонавтики и ракетной техники им. В.П.Глушко",
+      "price": "150",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 13
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 71,
+    "fields": {
+      "id": 25,
+      "name": "Экспозиция «История Петербурга-Петрограда. 1703 -1918 годы.»",
+      "price": "200",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 13
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 72,
+    "fields": {
+      "id": 26,
+      "name": "Экспозиция «История Петропавловской крепости» ",
+      "price": "100",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 13
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 73,
+    "fields": {
+      "id": 27,
+      "name": "Вход в Петропавловскую крепость",
+      "price": "бесплатно",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 13
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 74,
+    "fields": {
+      "id": 28,
+      "name": "Государственный мемориальный музей А. В. Суворова",
+      "price": "200",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 14
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 75,
+    "fields": {
+      "id": 29,
+      "name": "Особняк Румянцева",
+      "price": "200",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 15
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 76,
+    "fields": {
+      "id": 30,
+      "name": "Музей-квартира А.А. Блока",
+      "price": "150",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 16
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 77,
+    "fields": {
+      "id": 31,
+      "name": "Музей С.М. Кирова",
+      "price": "150",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 17
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 78,
+    "fields": {
+      "id": 32,
+      "name": "Музей петербургского авангарда",
+      "price": "100",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 18
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 79,
+    "fields": {
+      "id": 33,
+      "name": "Музей печати",
+      "price": "150",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 19
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 80,
+    "fields": {
+      "id": 34,
+      "name": "Государственный Музей Политической Истории России",
+      "price": "200",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 20
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 81,
+    "fields": {
+      "id": 35,
+      "name": "Российский Этнографический Музей",
+      "price": "250",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 21
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 82,
+    "fields": {
+      "id": 36,
+      "name": "Музей «Разночинный Петербург»",
+      "price": "200",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 22
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 83,
+    "fields": {
+      "id": 37,
+      "name": "Музей «Гранд Макет Россия»",
+      "price": "450",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 23
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 84,
+    "fields": {
+      "id": 38,
+      "name": "Музей-усадьба Державина",
+      "price": "200",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 24
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 85,
+    "fields": {
+      "id": 39,
+      "name": "Музей-квартира Н. А. Некрасова",
+      "price": "150",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 25
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 86,
+    "fields": {
+      "id": 40,
+      "name": "Музей-квартира Л.Н.Гумилёва",
+      "price": "200",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 26
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 87,
+    "fields": {
+      "id": 41,
+      "name": "Музей Анны Ахматовой в Фонтанном Доме",
+      "price": "100",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 27
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 88,
+    "fields": {
+      "id": 42,
+      "name": "Музей Достоевского",
+      "price": "120",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 28
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 89,
+    "fields": {
+      "id": 43,
+      "name": "Литературный музей «ХХ век»",
+      "price": "100",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 29
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 90,
+    "fields": {
+      "id": 44,
+      "name": "Экспозиция «Театральные легенды»",
+      "price": "150",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 30
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 91,
+    "fields": {
+      "id": 45,
+      "name": "Экспозиция «Волшебный мир театра»",
+      "price": "80",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 30
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 92,
+    "fields": {
+      "id": 46,
+      "name": "Экспозиции «Анфилада парадных залов дворца»",
+      "price": "300",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 31
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 93,
+    "fields": {
+      "id": 47,
+      "name": "Экспозиция музыкальных инструментов «Открытые фонды»",
+      "price": "300",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 31
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 94,
+    "fields": {
+      "id": 48,
+      "name": "Постоянная выставка «Композиция Крест “Монте Дженерозо”» ",
+      "price": "300",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 31
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 95,
+    "fields": {
+      "id": 49,
+      "name": "Дом-музей Ф. Шаляпина",
+      "price": "100",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 32
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 96,
+    "fields": {
+      "id": 50,
+      "name": "Музей Н. А. Римского-Корсакова",
+      "price": "100",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 33
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 97,
+    "fields": {
+      "id": 51,
+      "name": "Музей актёров Самойловых",
+      "price": "100",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 34
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 98,
+    "fields": {
+      "id": 52,
+      "name": "Российский государственный музей Арктики и Антарктики",
+      "price": "300",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 35
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 99,
+    "fields": {
+      "id": 53,
+      "name": "Музейный комплекс «Вселенная воды»",
+      "price": "150",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 36
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 100,
+    "fields": {
+      "id": 54,
+      "name": "Экскурсия «Подземное царство» (до 10 чел.)",
+      "price": "1000",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 37
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 101,
+    "fields": {
+      "id": 55,
+      "name": "Посещение музея во вторник",
+      "price": "бесплатно",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 37
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 102,
+    "fields": {
+      "id": 56,
+      "name": "Посещение музея (понедельник, среда, четверг, пятница)",
+      "price": "по предварительной записи",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 37
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 103,
+    "fields": {
+      "id": 57,
+      "name": "Горный музей",
+      "price": "бесплатно",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 38
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 104,
+    "fields": {
+      "id": 58,
+      "name": "Парк-дендрарий",
+      "price": "100",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 39
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 105,
+    "fields": {
+      "id": 59,
+      "name": "Тропический маршрут",
+      "price": "300",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 39
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 106,
+    "fields": {
+      "id": 60,
+      "name": "Субтропический маршрут",
+      "price": "300",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 39
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 107,
+    "fields": {
+      "id": 61,
+      "name": "Водный маршрут",
+      "price": "300",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 39
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 108,
+    "fields": {
+      "id": 62,
+      "name": "Ленинградский зоопарк",
+      "price": "500",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 40
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 109,
+    "fields": {
+      "id": 63,
+      "name": "Зоологический музей",
+      "price": "200",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 41
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 108,
+    "fields": {
+      "id": 64,
+      "name": "Музей электрического транспорта",
+      "price": "300",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 42
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 109,
+    "fields": {
+      "id": 65,
+      "name": "Музей Петербургского метрополитена",
+      "price": "300",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 43
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 110,
+    "fields": {
+      "id": 66,
+      "name": "Музей граммофонов и фонографов",
+      "price": "по предварительной записи",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 44
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 111,
+    "fields": {
+      "id": 67,
+      "name": "Музей связи имени А.С. Попова",
+      "price": "200",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 45
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Service",
+    "pk": 112,
+    "fields": {
+      "id": 68,
+      "name": "Музей А. С. Попова при ЛЭТИ",
+      "price": "бесплатно",
+      "start_time": "Null",
+      "end_time": "Null",
+      "image": null,
+      "place_id": 46
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 113,
+    "fields": {
+      "id": 1,
+      "address": "Дворцовая пл., 2",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.939950, 30.314495"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 114,
+    "fields": {
+      "id": 2,
+      "address": "Инженерная ул., 4",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.938624, 30.332178"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 115,
+    "fields": {
+      "id": 3,
+      "address": "Университетская наб., 3",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.941411, 30.304576"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 116,
+    "fields": {
+      "id": 4,
+      "address": "о. Васильевский, 17-я линия, 1",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.931608, 30.272065"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 117,
+    "fields": {
+      "id": 5,
+      "address": "о. Васильевский, 29-я линия, 2",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.932107, 30.251390"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 118,
+    "fields": {
+      "id": 6,
+      "address": "Университетская наб., 17",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.937549, 30.290324"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 119,
+    "fields": {
+      "id": 7,
+      "address": "пл. Искусств, дом 3",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.937496, 30.329267"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 120,
+    "fields": {
+      "id": 8,
+      "address": "Большая Морская ул., 6",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.937076, 30.317814"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 121,
+    "fields": {
+      "id": 9,
+      "address": "площадь Победы",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.842989, 30.321875"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 122,
+    "fields": {
+      "id": 10,
+      "address": "Соляной пер., 9",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.944410, 30.341357"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 123,
+    "fields": {
+      "id": 11,
+      "address": "о. Васильевский, 4-я линия, 19",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.942448, 30.283060"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 124,
+    "fields": {
+      "id": 12,
+      "address": "Петроградская наб.",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.955387, 30.337835"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 125,
+    "fields": {
+      "id": 13,
+      "address": "Петропавловская крепость",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.950021, 30.316549"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 126,
+    "fields": {
+      "id": 14,
+      "address": "Кирочная ул., 43",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.943238, 30.376446"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 127,
+    "fields": {
+      "id": 15,
+      "address": "Галерная ул., 45",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.932297, 30.289821"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 128,
+    "fields": {
+      "id": 16,
+      "address": "Декабристов ул., 57",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.923730, 30.282525"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 129,
+    "fields": {
+      "id": 17,
+      "address": "Каменноостровский пр-кт, 26-28, 2 парадная, 5 этаж",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.962300, 30.313801"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 130,
+    "fields": {
+      "id": 18,
+      "address": "Профессора Попова ул., 10",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.970936, 30.312305"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 131,
+    "fields": {
+      "id": 19,
+      "address": "наб. реки Мойки, 32",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.938262, 30.319965"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 132,
+    "fields": {
+      "id": 20,
+      "address": "Куйбышева ул., 2-4",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.954590, 30.324585"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 133,
+    "fields": {
+      "id": 21,
+      "address": "Инженерная ул., 4/1",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.937830, 30.334389"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 134,
+    "fields": {
+      "id": 22,
+      "address": "Большой Казачий пер., 9",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.923229, 30.326989"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 135,
+    "fields": {
+      "id": 23,
+      "address": "Цветочная ул., 16",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.888075, 30.330951"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 136,
+    "fields": {
+      "id": 24,
+      "address": "наб. Pеки Фонтанки, 118",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.919501, 30.311584"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 137,
+    "fields": {
+      "id": 25,
+      "address": "Литейный пр., 36",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.939399, 30.348567"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 138,
+    "fields": {
+      "id": 26,
+      "address": "Коломенская ул., д. 1/15, кв. 4",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.926578, 30.354854"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 139,
+    "fields": {
+      "id": 27,
+      "address": "Литейный просп., 53",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.936372, 30.347704"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 140,
+    "fields": {
+      "id": 28,
+      "address": "Кузнечный пер., 5/2",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.927402, 30.350790"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 141,
+    "fields": {
+      "id": 29,
+      "address": "Конюшенная ул. д. 4/2 кв. 119",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.940779, 30.324970"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 142,
+    "fields": {
+      "id": 30,
+      "address": "пл. Островского, 6",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.930975, 30.336740"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 143,
+    "fields": {
+      "id": 31,
+      "address": "наб. Pеки Фонтанки, 34",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.936473, 30.345318"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 141,
+    "fields": {
+      "id": 32,
+      "address": "Графтио ул., 2",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.974056, 30.305021"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 142,
+    "fields": {
+      "id": 33,
+      "address": "Загородный просп., 28",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.924587, 30.340963"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 143,
+    "fields": {
+      "id": 34,
+      "address": "Стремянная ул., 8",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.931174, 30.350600"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 144,
+    "fields": {
+      "id": 35,
+      "address": "ул. Марата, 24А",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.927463, 30.353551"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 145,
+    "fields": {
+      "id": 36,
+      "address": "Шпалерная ул., 56",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.948972, 30.374751"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 142,
+    "fields": {
+      "id": 37,
+      "address": "Биржевой пр-д, 6",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.943881, 30.303258"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 143,
+    "fields": {
+      "id": 38,
+      "address": "о. Васильевский, 22-я линия, 1",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.929715, 30.267344"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 144,
+    "fields": {
+      "id": 39,
+      "address": "ул. Профессора Попова, 2",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.971022, 30.322705"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 145,
+    "fields": {
+      "id": 40,
+      "address": "Александровский парк, 1",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.951810, 30.306798"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 146,
+    "fields": {
+      "id": 41,
+      "address": "Университетская наб., 1",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.942309, 30.305284"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 147,
+    "fields": {
+      "id": 42,
+      "address": "Средний проспект В.О., 77А",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.938926, 30.260901"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 148,
+    "fields": {
+      "id": 43,
+      "address": "ул. Одоевского, 29",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.948219, 30.235274"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 149,
+    "fields": {
+      "id": 44,
+      "address": "Большая Пушкарская ул., 47",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.963787, 30.312876"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 150,
+    "fields": {
+      "id": 45,
+      "address": "Почтамтский пер., 4",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.932495, 30.302151"
+    }
+  },
+  {
+    "model": "goodTravelRestApp.Address",
+    "pk": 151,
+    "fields": {
+      "id": 46,
+      "address": "ул. Профессора Попова, 5 лит. Щ корп. D, 33",
+      "locality": "Санкт-Петербург",
+      "region": "Null",
+      "country": "Россия",
+      "coordinates": "59.971884, 30.322330"
+    }
+  }
+]
