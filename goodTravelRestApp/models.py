@@ -13,7 +13,7 @@ class User1(models.Model):
 
 class Address(models.Model):
     country = models.CharField(max_length=200, verbose_name="Страна")
-    region = models.CharField(max_length=200, verbose_name="Регион")
+    region = models.CharField(max_length=200, verbose_name="Регион", null=True)
     locality = models.CharField(max_length=200, verbose_name="Населенный пункт")
     address = models.CharField(max_length=300, verbose_name="Адрес в населенном пункте")
     coordinates = models.TextField(verbose_name="Координаты")
@@ -41,15 +41,15 @@ class Place(models.Model):
     type = models.CharField(max_length=200, verbose_name="Тип объекта")
     description = models.TextField(verbose_name="Описание")
     address = models.OneToOneField(Address)
-    image = models.CharField(max_length=500, verbose_name="Основное изображение")
+    image = models.CharField(max_length=500, verbose_name="Основное изображение", null=True)
 
 
 class Service(models.Model):
     name = models.CharField(max_length=200, unique=True, verbose_name="Название")
     price = models.CharField(max_length=200, verbose_name="Цена")
-    start_time = models.TimeField(verbose_name="Время начала")
-    end_time = models.TimeField(verbose_name="Время конца")
-    image = models.CharField(max_length=500, verbose_name="Ссылка на изображение")
+    start_time = models.TimeField(verbose_name="Время начала", null=True)
+    end_time = models.TimeField(verbose_name="Время конца", null=True)
+    image = models.CharField(max_length=500, verbose_name="Ссылка на изображение", null=True)
     place = models.ForeignKey(Place)
 
 
@@ -58,9 +58,3 @@ class PlanPlace(models.Model):
     start_time = models.TimeField(verbose_name="Время начала")
     plan = models.ForeignKey(Plan)
     service = models.ForeignKey(Service)
-
-
-
-
-
-

@@ -146,3 +146,13 @@ class PersonTestCase(TestCase):
         s = PlanPlaceSerializer(instance=p, context=serializer_context)
         content = JSONRenderer().render(s.data)
         self.assertEqual(response.content, content)
+
+    def tearDown(self):
+        User1.objects.all().delete()
+        User.objects.all().delete()
+        Address.objects.all().delete()
+        Plan.objects.all().delete()
+        Place.objects.all().delete()
+        PlanPlace.objects.all().delete()
+        Service.objects.all().delete()
+        Feature.objects.all().delete()

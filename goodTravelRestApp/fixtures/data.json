@@ -558,8 +558,8 @@
       "id": 1,
       "name": "Зимний дворец Петра I",
       "price": "300",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 1
     }
@@ -571,8 +571,8 @@
       "id": 2,
       "name": "Дворец Меншикова",
       "price": "300",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 1
     }
@@ -584,8 +584,8 @@
       "id": 3,
       "name": "Реставрационно-хранительский центр «Старая деревня»",
       "price": "300",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 1
     }
@@ -597,8 +597,8 @@
       "id": 4,
       "name": "Главный штаб",
       "price": "300",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 1
     }
@@ -610,8 +610,8 @@
       "id": 5,
       "name": "Музей Императорского фарфорового завода.",
       "price": "300",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 1
     }
@@ -623,8 +623,8 @@
       "id": 6,
       "name": "Михайловский дворец, Корпус Бенуа",
       "price": "450",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 2
     }
@@ -636,8 +636,8 @@
       "id": 7,
       "name": "Строгановский дворец",
       "price": "300",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 2
     }
@@ -649,8 +649,8 @@
       "id": 8,
       "name": "Михайловский замок",
       "price": "300",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 2
     }
@@ -662,8 +662,8 @@
       "id": 9,
       "name": "Мраморный дворец",
       "price": "300",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 2
     }
@@ -675,8 +675,8 @@
       "id": 10,
       "name": "Домик Петра I",
       "price": "200",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 2
     }
@@ -688,8 +688,8 @@
       "id": 11,
       "name": "Кунсткамера",
       "price": "250",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 3
     }
@@ -701,8 +701,8 @@
       "id": 12,
       "name": "Музей семьи Рерихов",
       "price": "120",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 4
     }
@@ -714,8 +714,8 @@
       "id": 13,
       "name": "Эрарта",
       "price": "500",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 5
     }
@@ -727,8 +727,8 @@
       "id": 14,
       "name": "Научно-исследовательский музей при Российской академии художеств",
       "price": "500(200)",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 6
     }
@@ -740,8 +740,8 @@
       "id": 15,
       "name": "Музей-квартира И.И. Бродского",
       "price": "300(150)",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 7
     }
@@ -753,8 +753,8 @@
       "id": 16,
       "name": "Музей восковых фигур",
       "price": "350",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 8
     }
@@ -766,8 +766,8 @@
       "id": 17,
       "name": "Наземная часть ансамбля",
       "price": "бесплатно",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 9
     }
@@ -779,8 +779,8 @@
       "id": 18,
       "name": "Памятный зал с экспозицией «История обороны и блокады Ленинграда»",
       "price": "100",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 9
     }
@@ -792,8 +792,8 @@
       "id": 19,
       "name": "Музей обороны и блокады Ленинграда",
       "price": "250",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 10
     }
@@ -805,8 +805,8 @@
       "id": 20,
       "name": "Музей культуры Ленинграда 1945-1965гг.",
       "price": "100",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 11
     }
@@ -818,8 +818,8 @@
       "id": 21,
       "name": "Музей «Крейсер «Аврора»",
       "price": "400",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 12
     }
@@ -831,8 +831,8 @@
       "id": 22,
       "name": "Петропавловский собор и Великокняжеская усыпальница",
       "price": "450",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 13
     }
@@ -844,8 +844,8 @@
       "id": 23,
       "name": "Тюрьма Трубецкого бастиона ",
       "price": "200",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 13
     }
@@ -857,8 +857,8 @@
       "id": 24,
       "name": "Музей космонавтики и ракетной техники им. В.П.Глушко",
       "price": "150",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 13
     }
@@ -870,8 +870,8 @@
       "id": 25,
       "name": "Экспозиция «История Петербурга-Петрограда. 1703 -1918 годы.»",
       "price": "200",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 13
     }
@@ -883,8 +883,8 @@
       "id": 26,
       "name": "Экспозиция «История Петропавловской крепости» ",
       "price": "100",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 13
     }
@@ -896,8 +896,8 @@
       "id": 27,
       "name": "Вход в Петропавловскую крепость",
       "price": "бесплатно",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 13
     }
@@ -909,8 +909,8 @@
       "id": 28,
       "name": "Государственный мемориальный музей А. В. Суворова",
       "price": "200",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 14
     }
@@ -922,8 +922,8 @@
       "id": 29,
       "name": "Особняк Румянцева",
       "price": "200",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 15
     }
@@ -935,8 +935,8 @@
       "id": 30,
       "name": "Музей-квартира А.А. Блока",
       "price": "150",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 16
     }
@@ -948,8 +948,8 @@
       "id": 31,
       "name": "Музей С.М. Кирова",
       "price": "150",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 17
     }
@@ -961,8 +961,8 @@
       "id": 32,
       "name": "Музей петербургского авангарда",
       "price": "100",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 18
     }
@@ -974,8 +974,8 @@
       "id": 33,
       "name": "Музей печати",
       "price": "150",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 19
     }
@@ -987,8 +987,8 @@
       "id": 34,
       "name": "Государственный Музей Политической Истории России",
       "price": "200",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 20
     }
@@ -1000,8 +1000,8 @@
       "id": 35,
       "name": "Российский Этнографический Музей",
       "price": "250",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 21
     }
@@ -1013,8 +1013,8 @@
       "id": 36,
       "name": "Музей «Разночинный Петербург»",
       "price": "200",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 22
     }
@@ -1026,8 +1026,8 @@
       "id": 37,
       "name": "Музей «Гранд Макет Россия»",
       "price": "450",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 23
     }
@@ -1039,8 +1039,8 @@
       "id": 38,
       "name": "Музей-усадьба Державина",
       "price": "200",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 24
     }
@@ -1052,8 +1052,8 @@
       "id": 39,
       "name": "Музей-квартира Н. А. Некрасова",
       "price": "150",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 25
     }
@@ -1065,8 +1065,8 @@
       "id": 40,
       "name": "Музей-квартира Л.Н.Гумилёва",
       "price": "200",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 26
     }
@@ -1078,8 +1078,8 @@
       "id": 41,
       "name": "Музей Анны Ахматовой в Фонтанном Доме",
       "price": "100",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 27
     }
@@ -1091,8 +1091,8 @@
       "id": 42,
       "name": "Музей Достоевского",
       "price": "120",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 28
     }
@@ -1104,8 +1104,8 @@
       "id": 43,
       "name": "Литературный музей «ХХ век»",
       "price": "100",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 29
     }
@@ -1117,8 +1117,8 @@
       "id": 44,
       "name": "Экспозиция «Театральные легенды»",
       "price": "150",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 30
     }
@@ -1130,8 +1130,8 @@
       "id": 45,
       "name": "Экспозиция «Волшебный мир театра»",
       "price": "80",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 30
     }
@@ -1143,8 +1143,8 @@
       "id": 46,
       "name": "Экспозиции «Анфилада парадных залов дворца»",
       "price": "300",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 31
     }
@@ -1156,8 +1156,8 @@
       "id": 47,
       "name": "Экспозиция музыкальных инструментов «Открытые фонды»",
       "price": "300",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 31
     }
@@ -1169,8 +1169,8 @@
       "id": 48,
       "name": "Постоянная выставка «Композиция Крест “Монте Дженерозо”» ",
       "price": "300",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 31
     }
@@ -1182,8 +1182,8 @@
       "id": 49,
       "name": "Дом-музей Ф. Шаляпина",
       "price": "100",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 32
     }
@@ -1195,8 +1195,8 @@
       "id": 50,
       "name": "Музей Н. А. Римского-Корсакова",
       "price": "100",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 33
     }
@@ -1208,8 +1208,8 @@
       "id": 51,
       "name": "Музей актёров Самойловых",
       "price": "100",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 34
     }
@@ -1221,8 +1221,8 @@
       "id": 52,
       "name": "Российский государственный музей Арктики и Антарктики",
       "price": "300",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 35
     }
@@ -1234,8 +1234,8 @@
       "id": 53,
       "name": "Музейный комплекс «Вселенная воды»",
       "price": "150",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 36
     }
@@ -1247,8 +1247,8 @@
       "id": 54,
       "name": "Экскурсия «Подземное царство» (до 10 чел.)",
       "price": "1000",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 37
     }
@@ -1260,8 +1260,8 @@
       "id": 55,
       "name": "Посещение музея во вторник",
       "price": "бесплатно",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 37
     }
@@ -1273,8 +1273,8 @@
       "id": 56,
       "name": "Посещение музея (понедельник, среда, четверг, пятница)",
       "price": "по предварительной записи",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 37
     }
@@ -1286,8 +1286,8 @@
       "id": 57,
       "name": "Горный музей",
       "price": "бесплатно",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 38
     }
@@ -1299,8 +1299,8 @@
       "id": 58,
       "name": "Парк-дендрарий",
       "price": "100",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 39
     }
@@ -1312,8 +1312,8 @@
       "id": 59,
       "name": "Тропический маршрут",
       "price": "300",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 39
     }
@@ -1325,8 +1325,8 @@
       "id": 60,
       "name": "Субтропический маршрут",
       "price": "300",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 39
     }
@@ -1338,8 +1338,8 @@
       "id": 61,
       "name": "Водный маршрут",
       "price": "300",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 39
     }
@@ -1351,8 +1351,8 @@
       "id": 62,
       "name": "Ленинградский зоопарк",
       "price": "500",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 40
     }
@@ -1364,8 +1364,8 @@
       "id": 63,
       "name": "Зоологический музей",
       "price": "200",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 41
     }
@@ -1377,8 +1377,8 @@
       "id": 64,
       "name": "Музей электрического транспорта",
       "price": "300",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 42
     }
@@ -1390,8 +1390,8 @@
       "id": 65,
       "name": "Музей Петербургского метрополитена",
       "price": "300",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 43
     }
@@ -1403,8 +1403,8 @@
       "id": 66,
       "name": "Музей граммофонов и фонографов",
       "price": "по предварительной записи",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 44
     }
@@ -1416,8 +1416,8 @@
       "id": 67,
       "name": "Музей связи имени А.С. Попова",
       "price": "200",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 45
     }
@@ -1429,8 +1429,8 @@
       "id": 68,
       "name": "Музей А. С. Попова при ЛЭТИ",
       "price": "бесплатно",
-      "start_time": "Null",
-      "end_time": "Null",
+      "start_time": null,
+      "end_time": null,
       "image": null,
       "place_id": 46
     }
@@ -1442,7 +1442,7 @@
       "id": 1,
       "address": "Дворцовая пл., 2",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.939950, 30.314495"
     }
@@ -1454,7 +1454,7 @@
       "id": 2,
       "address": "Инженерная ул., 4",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.938624, 30.332178"
     }
@@ -1466,7 +1466,7 @@
       "id": 3,
       "address": "Университетская наб., 3",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.941411, 30.304576"
     }
@@ -1478,7 +1478,7 @@
       "id": 4,
       "address": "о. Васильевский, 17-я линия, 1",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.931608, 30.272065"
     }
@@ -1490,7 +1490,7 @@
       "id": 5,
       "address": "о. Васильевский, 29-я линия, 2",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.932107, 30.251390"
     }
@@ -1502,7 +1502,7 @@
       "id": 6,
       "address": "Университетская наб., 17",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.937549, 30.290324"
     }
@@ -1514,7 +1514,7 @@
       "id": 7,
       "address": "пл. Искусств, дом 3",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.937496, 30.329267"
     }
@@ -1526,7 +1526,7 @@
       "id": 8,
       "address": "Большая Морская ул., 6",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.937076, 30.317814"
     }
@@ -1538,7 +1538,7 @@
       "id": 9,
       "address": "площадь Победы",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.842989, 30.321875"
     }
@@ -1550,7 +1550,7 @@
       "id": 10,
       "address": "Соляной пер., 9",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.944410, 30.341357"
     }
@@ -1562,7 +1562,7 @@
       "id": 11,
       "address": "о. Васильевский, 4-я линия, 19",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.942448, 30.283060"
     }
@@ -1574,7 +1574,7 @@
       "id": 12,
       "address": "Петроградская наб.",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.955387, 30.337835"
     }
@@ -1586,7 +1586,7 @@
       "id": 13,
       "address": "Петропавловская крепость",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.950021, 30.316549"
     }
@@ -1598,7 +1598,7 @@
       "id": 14,
       "address": "Кирочная ул., 43",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.943238, 30.376446"
     }
@@ -1610,7 +1610,7 @@
       "id": 15,
       "address": "Галерная ул., 45",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.932297, 30.289821"
     }
@@ -1622,7 +1622,7 @@
       "id": 16,
       "address": "Декабристов ул., 57",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.923730, 30.282525"
     }
@@ -1634,7 +1634,7 @@
       "id": 17,
       "address": "Каменноостровский пр-кт, 26-28, 2 парадная, 5 этаж",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.962300, 30.313801"
     }
@@ -1646,7 +1646,7 @@
       "id": 18,
       "address": "Профессора Попова ул., 10",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.970936, 30.312305"
     }
@@ -1658,7 +1658,7 @@
       "id": 19,
       "address": "наб. реки Мойки, 32",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.938262, 30.319965"
     }
@@ -1670,7 +1670,7 @@
       "id": 20,
       "address": "Куйбышева ул., 2-4",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.954590, 30.324585"
     }
@@ -1682,7 +1682,7 @@
       "id": 21,
       "address": "Инженерная ул., 4/1",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.937830, 30.334389"
     }
@@ -1694,7 +1694,7 @@
       "id": 22,
       "address": "Большой Казачий пер., 9",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.923229, 30.326989"
     }
@@ -1706,7 +1706,7 @@
       "id": 23,
       "address": "Цветочная ул., 16",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.888075, 30.330951"
     }
@@ -1718,7 +1718,7 @@
       "id": 24,
       "address": "наб. Pеки Фонтанки, 118",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.919501, 30.311584"
     }
@@ -1730,7 +1730,7 @@
       "id": 25,
       "address": "Литейный пр., 36",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.939399, 30.348567"
     }
@@ -1742,7 +1742,7 @@
       "id": 26,
       "address": "Коломенская ул., д. 1/15, кв. 4",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.926578, 30.354854"
     }
@@ -1754,7 +1754,7 @@
       "id": 27,
       "address": "Литейный просп., 53",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.936372, 30.347704"
     }
@@ -1766,7 +1766,7 @@
       "id": 28,
       "address": "Кузнечный пер., 5/2",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.927402, 30.350790"
     }
@@ -1778,7 +1778,7 @@
       "id": 29,
       "address": "Конюшенная ул. д. 4/2 кв. 119",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.940779, 30.324970"
     }
@@ -1790,7 +1790,7 @@
       "id": 30,
       "address": "пл. Островского, 6",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.930975, 30.336740"
     }
@@ -1802,7 +1802,7 @@
       "id": 31,
       "address": "наб. Pеки Фонтанки, 34",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.936473, 30.345318"
     }
@@ -1814,7 +1814,7 @@
       "id": 32,
       "address": "Графтио ул., 2",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.974056, 30.305021"
     }
@@ -1826,7 +1826,7 @@
       "id": 33,
       "address": "Загородный просп., 28",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.924587, 30.340963"
     }
@@ -1838,7 +1838,7 @@
       "id": 34,
       "address": "Стремянная ул., 8",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.931174, 30.350600"
     }
@@ -1850,7 +1850,7 @@
       "id": 35,
       "address": "ул. Марата, 24А",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.927463, 30.353551"
     }
@@ -1862,7 +1862,7 @@
       "id": 36,
       "address": "Шпалерная ул., 56",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.948972, 30.374751"
     }
@@ -1874,7 +1874,7 @@
       "id": 37,
       "address": "Биржевой пр-д, 6",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.943881, 30.303258"
     }
@@ -1886,7 +1886,7 @@
       "id": 38,
       "address": "о. Васильевский, 22-я линия, 1",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.929715, 30.267344"
     }
@@ -1898,7 +1898,7 @@
       "id": 39,
       "address": "ул. Профессора Попова, 2",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.971022, 30.322705"
     }
@@ -1910,7 +1910,7 @@
       "id": 40,
       "address": "Александровский парк, 1",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.951810, 30.306798"
     }
@@ -1922,7 +1922,7 @@
       "id": 41,
       "address": "Университетская наб., 1",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.942309, 30.305284"
     }
@@ -1934,7 +1934,7 @@
       "id": 42,
       "address": "Средний проспект В.О., 77А",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.938926, 30.260901"
     }
@@ -1946,7 +1946,7 @@
       "id": 43,
       "address": "ул. Одоевского, 29",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.948219, 30.235274"
     }
@@ -1958,7 +1958,7 @@
       "id": 44,
       "address": "Большая Пушкарская ул., 47",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.963787, 30.312876"
     }
@@ -1970,7 +1970,7 @@
       "id": 45,
       "address": "Почтамтский пер., 4",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.932495, 30.302151"
     }
@@ -1982,7 +1982,7 @@
       "id": 46,
       "address": "ул. Профессора Попова, 5 лит. Щ корп. D, 33",
       "locality": "Санкт-Петербург",
-      "region": "Null",
+      "region": null,
       "country": "Россия",
       "coordinates": "59.971884, 30.322330"
     }
