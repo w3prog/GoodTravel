@@ -19,6 +19,10 @@ from django.contrib import admin
 from goodTravelRestApp import views
 
 from rest_framework import routers
+from django.conf.urls.static import static
+from django.conf import settings
+
+
 router = routers.DefaultRouter()
 router.register(r'users', views.UserViewSet)
 router.register(r'places', views.PlaceViewSet)
@@ -32,4 +36,4 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^', include(router.urls)),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))
-]
+]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

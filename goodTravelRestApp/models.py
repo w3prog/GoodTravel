@@ -41,7 +41,7 @@ class Place(models.Model):
     type = models.CharField(max_length=200, verbose_name="Тип объекта")
     description = models.TextField(verbose_name="Описание")
     address = models.OneToOneField(Address)
-    image = models.CharField(max_length=500, verbose_name="Основное изображение", null=True)
+    image = models.ImageField(upload_to='place/', default='place/def.jpg')
 
 
 class Service(models.Model):
@@ -49,7 +49,7 @@ class Service(models.Model):
     price = models.CharField(max_length=200, verbose_name="Цена")
     start_time = models.TimeField(verbose_name="Время начала", null=True)
     end_time = models.TimeField(verbose_name="Время конца", null=True)
-    image = models.CharField(max_length=500, verbose_name="Ссылка на изображение", null=True)
+    image = models.ImageField(upload_to='service/', default='service/def.jpg')
     place = models.ForeignKey(Place)
 
 

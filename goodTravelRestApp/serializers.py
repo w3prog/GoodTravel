@@ -1,11 +1,11 @@
 from rest_framework import serializers
 
 from goodTravelRestApp.models import Address
+from goodTravelRestApp.models import Feature
 from goodTravelRestApp.models import Place
 from goodTravelRestApp.models import Plan
-from goodTravelRestApp.models import User1
 from goodTravelRestApp.models import Service, PlanPlace
-from goodTravelRestApp.models import Feature
+from goodTravelRestApp.models import User1
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
@@ -23,10 +23,12 @@ class AddressSerializer(serializers.HyperlinkedModelSerializer):
 class FeatureSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Feature
-        fields = ('name','plan')
+        fields = ('name', 'plan')
 
 
 class PlaceSerializer(serializers.HyperlinkedModelSerializer):
+    image = serializers.ImageField(max_length=None)
+
     class Meta:
         model = Place
         fields = ('name', 'type', 'description', 'address', 'image')
@@ -45,6 +47,8 @@ class PlanPlaceSerializer(serializers.HyperlinkedModelSerializer):
 
 
 class ServiceSerializer(serializers.HyperlinkedModelSerializer):
+    image = serializers.ImageField(max_length=None)
+
     class Meta:
         model = Service
         fields = ('name', 'price', 'start_time', 'end_time', 'image', 'place')
