@@ -1,7 +1,7 @@
 Django == 1.*
 djangorestframework == 3.*
 blinker
-dj-database-url
 gunicorn
 psycopg2
 whitenoise
+pillow
