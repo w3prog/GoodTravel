@@ -1,5 +1,5 @@
 import os
-import dj_database_url
+#import dj_database_url
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = '1$p7m-4g5phw@*0z&1igz&-l@x!55=a3xsjt2bp_q+$*g4ukpa'
@@ -8,6 +8,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     'gtwprog.herokuapp.com',
+    'ubuntu-02.moevm.info',
     '127.0.0.1'
 ]
 
@@ -81,8 +82,8 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 10
 }
 
-db_from_env = dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(db_from_env)
+# db_from_env = dj_database_url.config(conn_max_age=500)
+# DATABASES['default'].update(db_from_env)
 
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
