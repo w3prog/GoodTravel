@@ -1,7 +1,6 @@
 Django == 1.*
 djangorestframework == 3.*
 blinker
-django-rest-framework-mongoengine == 1.*
 dj-database-url
 gunicorn
 psycopg2
